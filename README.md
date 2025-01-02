@@ -12,7 +12,6 @@ This game is licensed under the GPL-3.0 license, 2025, by Angel Pusch.
 
 ## Features
 
-- **Engaging Gameplay**: Navigate through spinning obstacles and challenges.
 - **Godot Engine**: Built using the powerful and versatile Godot engine.
 - **Blender Models**: High-quality 3D models created with Blender.
 
