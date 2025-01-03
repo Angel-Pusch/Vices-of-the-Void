@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://xoh3magxks3k"]
+[gd_scene load_steps=2 format=3 uid="uid://xoh3magxks3k"]
+
+[ext_resource type="PackedScene" uid="uid://c87majooenfaq" path="res://assets/models/pistol.blend" id="1_ixv2i"]
 
 [node name="main" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="pistol" parent="." instance=ExtResource("1_ixv2i")]
+transform = Transform3D(0.674083, 0, 0.738655, 0, 1, 0, -0.738655, 0, 0.674083, -0.773273, -2.08104, -11.0279)
